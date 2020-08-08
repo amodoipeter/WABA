@@ -1,0 +1,119 @@
+body{
+  overflow-x: hidden;
+  font-size: medium;
+  text-align: center;
+}
+#center{
+   text-align: center; 
+  }
+  .contact{
+    padding-top: 100px;
+    /* background-color: cornsilk; */
+  }
+  
+  .layout{
+    padding: 5px;
+    text-align: center;
+  }
+
+  .footer {
+    float: left;
+    /* background-color: white; */
+    /* height: 300px; */
+    /* width: 100%; */
+    display: flex;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .part {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 5px;
+    flex: 25%;
+    text-align: center;
+    font-size: medium;
+  }
+  .active {
+    font-size: x-large;
+    padding: 5px;
+  }
+.slideshow-container {
+  position: center;
+  background: #f1f1f1f1;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+q {font-style: italic;}
+
+.author {color: cornflowerblue;}
+
+.customer {
+  float: left;
+  /* background-color: white; */
+  /* height: 300px; */
+  width: 100%;
+  display: flex;
+  padding-top: 100px;
+}
+
+.service{
+  content: "";
+  display: table;
+  clear: both;
+  padding: 5px;
+  flex: 25%;
+  text-align: center;
+}
